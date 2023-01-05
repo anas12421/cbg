@@ -1,0 +1,178 @@
+#award {
+  .awards_title {
+    text-align: center;
+
+    h2 {
+      font-family: 'Futura Hv BT', sans-serif;
+      font-size: 60px;
+      color: #4978BC;
+      margin-top: 107px;
+      font-weight: 600;
+    }
+
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      line-height: 150%;
+      color: #414042;
+      padding-top: 18px;
+    }
+  }
+
+
+  .award_item {
+    margin-top: 65px;
+
+
+
+    .award_img {
+      position: relative;
+      z-index: 1;
+      padding-bottom: 40px;
+      padding-top: 10px;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      height: 279px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+
+      // &::after {
+      //   position: absolute;
+      //   content: '';
+      //   height: 100%;
+      //   width: 100%;
+      //   bottom: 0;
+      //   left: 0;
+      //   background-color: #E6E7E8;
+      //   z-index: -1;
+      //   clip-path: polygon(100% 0, 0 59%, 57% 100%);
+      //   transition: all 0.3s ease;
+      //   -webkit-transition: all 0.3s ease;
+      //   -moz-transition: all 0.3s ease;
+      //   -ms-transition: all 0.3s ease;
+      //   -o-transition: all 0.3s ease;
+      // }
+
+      img {
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        cursor: pointer;
+      }
+
+
+      .award_ol{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    &:hover .award_img img {
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+    }
+
+
+    .award_details {
+      margin-top: 23px;
+
+      h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: #F04E4C;
+      }
+
+      h3 {
+        font-family: 'Futura Hv BT', sans-serif;
+        font-size: 24px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #4978BC;
+        font-weight: 600;
+        padding-right: 85px;
+      }
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 150%;
+        color: #414042;
+      }
+    }
+  }
+
+  .award_btn {
+    text-align: center;
+
+    a {
+      padding: 20px 40px;
+      // background: #4978BC;
+      font-family: 'Futura Hv BT', sans-serif;
+      font-size: 25px;
+      color: #FFFFFF;
+      margin-top: 61px;
+      text-transform: uppercase;
+      border: 1px solid #4978BC;
+      position: relative;
+      transition: all 0.4s ease;
+      -webkit-transition: all 0.4s ease;
+      -moz-transition: all 0.4s ease;
+      -ms-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+      overflow: hidden;
+      z-index: 1;
+
+      &:hover {
+        color: #4978BC;
+      }
+
+      &::after {
+        position: absolute;
+        content: '';
+        height: 180px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 0 0 50% 50%;
+        -webkit-border-radius: 0 0 50% 50%;
+        -moz-border-radius: 0 0 50% 50%;
+        -ms-border-radius: 0 0 50% 50%;
+        -o-border-radius: 0 0 50% 50%;
+        background-color: #4978BC;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        z-index: -1;
+}
+
+      &:hover::after{
+        height: 0;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+}
+    }
+
+  }
+}

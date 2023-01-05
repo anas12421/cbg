@@ -1,0 +1,32 @@
+#ratio {
+  padding: 147px 0 145px 0;
+  background-color: #252C6D;
+
+  .ratio_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    .ratio_timer {
+      margin-left: 20px;
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        color: #4978BC;
+        text-transform: capitalize;
+        display: block;
+      }
+
+      span {
+        font-family: 'Futura Hv BT', sans-serif;
+        font-size: 45px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.menu {
+  position: fixed;
+  padding: 48px 0 !important;
+  // background-color: yellow !important;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+
+  &.menu_ex{
+    background-color: white !important;
+    top: 0;
+    left: 0;
+    animation: menu_ex 1s;
+    -webkit-animation: menu_ex 1s;
+    padding: 15px 0 !important;
+    box-shadow: 0px 1px 5px 0px rgb(37,44,109);
+
+    img{
+      width: 80% !important;
+    }
+}
+
+  ul {
+    li {
+      margin-left: 36px;
+
+      a {
+        font-family: 'Futura Bk BT', sans-serif;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: #4978BC !important;
+        font-size: 16px;
+        padding: 0 !important;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+
+        &:hover {
+          color: #252C6D !important;
+        }
+
+        &.active {
+          color: #252C6D !important;
+        }
+      }
+    }
+  }
+}

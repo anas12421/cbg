@@ -1,0 +1,93 @@
+#concern {
+  position: relative;
+
+  .consern_shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .concern_text {
+    // margin-top: 102px;
+
+    h2 {
+      font-family: 'Futura Hv BT', sans-serif;
+      font-size: 60px;
+      line-height: 72px;
+      color: #F04E4C;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 150%;
+      color: #414042;
+      font-family: 'Roboto', sans-serif;
+      padding-top: 14px;
+    }
+
+    a {
+      font-family: 'Futura Hv BT', sans-serif;
+      font-size: 25px;
+      color: #4978BC;
+      text-transform: capitalize;
+      margin-top: 31px;
+      font-weight: 600;
+
+      i {
+        color: #F04E4C;
+        margin-left: 2px;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .concern_img_main {
+    margin-top: 90px;
+
+    a {
+      width: 100%;
+      margin-top: 25px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      height: 100px;
+      border: 1px solid #E6E7E8;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.04);
+      }
+
+      img{
+        cursor: pointer;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+}
+
+      &:hover img{
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+}
+    }
+  }
+
+}
